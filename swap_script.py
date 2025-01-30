@@ -12,8 +12,8 @@ account = Account.from_key(PRIVATE_KEY)
 WALLET_ADDRESS = account.address
 
 # Replace with actual contract addresses
-USDC_CONTRACT = "0xYourUSDCContract"
-USDT_CONTRACT = "0xYourUSDTContract"
+USDC_CONTRACT = "0xF242275d3a6527d877f2c927a82D9b057609cc71"
+USDT_CONTRACT = "0x05D032ac25d322df992303dCa074EE7392C117b9"
 
 # === User Input ===
 amount_in_usd = float(input("Enter the amount per swap ($): "))  # User sets swap amount
